@@ -1,5 +1,5 @@
 <template>
-    <div class="main">
+    <div v-if="data" class="main">
         <div class="layout">
             <div class="text-[22px] md:text-[45px]">{{ data.title }}</div>
             <div
